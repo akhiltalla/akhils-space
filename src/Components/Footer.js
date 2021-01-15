@@ -20,7 +20,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright Lol copy this website from my github if you want to</li>
+              <li>No &copy; Copyright Lol copy this website from my github if you want to but do buy me a <a href="upi://pay?pa=akhil.toon@okhdfcbank&amp;pn=Akhil Talla&amp;cu=INR">coffee</a></li>
               <li>Design by <a title="Akhil">Akhil Talla</a> 🖖</li>
            </ul>
 

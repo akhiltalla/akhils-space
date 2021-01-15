@@ -7,7 +7,7 @@ npm i
 npm start
 ```
 
-### 3. BUild
+### 3. for production BUild
 ```shell
 npm run build
 ```
