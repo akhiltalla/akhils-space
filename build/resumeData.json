@@ -4,7 +4,7 @@
     "description":"I am a Full Stack Web Developer",
     "image":"",
     "bio":"Interested in Blockchain technology, open to talk about it. ",
-    "contactmessage":"Hey you can E-mail/WhatsApp/Telegram me and tell me ideas about how i should display my backend skills in a website like this. Also praise me/add comments below",
+    "contactmessage":"Hey you can E-mail/WhatsApp/Telegram me and tell me ideas about how i should display my backend skills in a website like this. Also praise me/add comments below.",
     "email": "notifyakhil17@gmail.com",
     "phone": "+91 9791516477",
     "github":"https://github.com/akhiltalla",
@@ -42,6 +42,11 @@
         "name":"github",
         "url":"https://github.com/akhiltalla",
         "className":"fa fa-github"
+      },
+      {
+        "name":"whatsapp",
+        "url":"https://api.whatsapp.com/send?phone=+919791516477",
+        "className":"fab fa-whatsapp"
       }
     ]
   },
@@ -92,7 +97,7 @@
         "level":"80%"
       },
       {
-        "name":"ReactJs",
+        "name":"ReactJs(This website)",
         "level":"70%"
       },
       {
