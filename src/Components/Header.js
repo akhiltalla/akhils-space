@@ -14,34 +14,23 @@ class Header extends Component {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
     }
-    let config = {
-      num: [1, 1],
-      rps: 0.1,
-      radius: [5, 40],
-      life: [1.5, 3],
-      v: [2, 3],
-      tha: [-40, 40],
-      // body: "./img/icon.png", // Whether to render pictures
-      rotate: [3, 20],
-      alpha: [0.6, 0],
-      scale: [1, 0.1],
-      position: "all", // all or center or {x:1,y:1,width:100,height:100}
-      color: ["random", "#ff0000"],
-      cross: "bround", // cross or bround
-      random: null,  // or null,
-      g: 0,    // gravity
-      // f: [2, -1], // force
-      onParticleUpdate: (ctx, particle) => {
-          ctx.beginPath();
-          ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2);
-          ctx.fillStyle = particle.color;
-          ctx.fill();
-          ctx.closePath();
+    let params = {
+      particles: {
+        number: {
+          value: 100,
+        },
+        color: {
+          value: ['#858585']
+        },
+        line_linked: {
+          color: '#f44242',
+          opacity: 1
+        }
       }
     };
     return (
       <header id="home">
-      <ParticlesBg type="cobweb" bg={true} color="rgb(255,255,255)"/>
+      <ParticlesBg type="cobweb" bg={true} config={params}/>
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>

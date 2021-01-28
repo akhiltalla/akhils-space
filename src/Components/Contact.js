@@ -20,7 +20,8 @@ class Contact extends Component {
     const showContact = (e) => {
       console.log("lol");
       $('#contactForm').fadeIn();
-      $('#message-success').fadeOut();   
+      $('#message-success').fadeOut();
+      $('#submitButton').prop('disabled', false);
     }
 
     return (
@@ -69,7 +70,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" id="submitButton">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
