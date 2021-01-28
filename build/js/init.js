@@ -148,7 +148,7 @@
       var url = "https://script.google.com/macros/s/AKfycbxAbHp-NoIk9gjDnglR-AcAflGldPXt0VisO-Q--OtLUTDQk4HguQLiTg/exec";
 
       var data = `name=${contactName}&email=${contactEmail}&comments=${contactMessage}&interested=${contactSubject}`;
-      
+      $('#submitButton').prop('disabled', true);
       $.ajax({
 	      type: "GET",
 	      url: url,
@@ -161,19 +161,22 @@
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
                $('#message-success').fadeIn();   
+               $('#submitButton').prop('disabled', false);
             }
             // There was an error
             else {
                $('#image-loader').fadeOut();
                $('#message-warning').html(data.result);
-	            $('#message-warning').fadeIn();
+               $('#message-warning').fadeIn();
+               $('#submitButton').prop('disabled', false);
             }
 
          },
          error(data){
             $('#image-loader').fadeOut();
                $('#message-warning').html(data.result);
-	            $('#message-warning').fadeIn();
+               $('#message-warning').fadeIn();
+               $('#submitButton').removeAttr('disabled');
          }
 
       });
