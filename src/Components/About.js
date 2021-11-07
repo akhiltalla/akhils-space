@@ -27,8 +27,8 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>An engineer who is interested in implementing èfficient software solutions, who understands full stack development(from UI, sessions , etag, local storage cache, exposing API, server side caching, queuing, load balancer, DB relational/non-relational, and connecting all of those). </p>
-            <p>Very much interested in blockchain technology (GETH/Hyperledger). Do check my projects in <a href="https://github.com/akhiltalla">Github</a>.</p>
+            <p>An engineer who is interested in implementing èfficient software solutions, who understands full stack development(from UI, webpack, sessions , etag, local storage, creating APIs, server side caching, queuing, load balancer, DB relational/non-relational, and connecting all of those). </p>
+            <p>Very much interested in blockchain technology (GETH/Hyperledger), full stack development, understanding how our universe works(cause why not?). Do check my projects in <a href="https://github.com/akhiltalla">Github</a>.</p>
             <p>I hate light mode more than i love dark mode 😋</p>
             <div className="row">
                <div className="columns contact-details">
