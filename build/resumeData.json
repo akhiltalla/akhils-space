@@ -69,9 +69,15 @@
     ],
     "work":[
       {
+        "company":"Jio Platforms Limited",
+        "title":"Software Development Engineer (Full Stack)",
+        "years":"July 2021 - Present",
+        "description":"Working as a full stack developer for JioSign, a product used to sign documents using several signing methods. Project is live @ jiosign.jio.com. My tech stack includes development in React.js, Java spring boot. Tech stack here is amazing, currently learning, will update here as soon as i learn things"
+      },
+      {
         "company":"Kaar Technologies Pvt. Ltd.",
         "title":"Associate Consultant (Full Stack)",
-        "years":"June 2018 - Present",
+        "years":"June 2018 - June 2021",
         "description":"Worked as a full stack developer to develop a product which is used in the clients place by over 100,000 users."
       },
       {
@@ -89,6 +95,10 @@
     ],
     "skills":[
       {
+        "name":"JavaScript",
+        "level":"90%"
+      },
+      {
         "name":"Solidity",
         "level":"75%"
       },
@@ -98,7 +108,7 @@
       },
       {
         "name":"ReactJs(This website)",
-        "level":"70%"
+        "level":"90%"
       },
       {
         "name":"SAPUI5",
@@ -106,7 +116,7 @@
       },
       {
         "name":"Java",
-        "level":"75%"
+        "level":"85%"
       },
       {
         "name":"Hyperledger Fabric",
@@ -114,7 +124,7 @@
       },
       {
         "name":"SQL",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"Couch DB",

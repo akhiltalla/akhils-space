@@ -145,7 +145,7 @@
       var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
-      var url = "https://script.google.com/macros/s/AKfycbxAbHp-NoIk9gjDnglR-AcAflGldPXt0VisO-Q--OtLUTDQk4HguQLiTg/exec";
+      var url = "https://script.google.com/macros/s/AKfycbwzHGb42zgAGfq4xXhhqKC53n2U3vcxb0Vn0QiFya4bn8hJgDYUVKJjpDTYpfmFx-FaOw/exec";
 
       var data = `name=${contactName}&email=${contactEmail}&comments=${contactMessage}&interested=${contactSubject}`;
       $('#submitButton').prop('disabled', true);
