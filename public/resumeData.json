@@ -61,7 +61,7 @@
         "description2":"Learnt setting up a hyperledger network, with multiple MSPs and running them in a seperate container in a docker. Exposing the smart contract written in node.js for each container using express.js. Added in Github"
       },
       {
-        "school":"Vel Tech Universiry, Chennai",
+        "school":"Vel Tech University, Chennai",
         "degree":"Bachelors Degree in Computer Science and Engineering GPA 8.5/10",
         "graduated":"August 2018",
         "description":"Learnt basics of Computer Science and Technology like System design, SQL (DB). Participated in Hackerrank coding competitions and have 2 bronze medals"
